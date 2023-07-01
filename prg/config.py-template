@@ -1,0 +1,19 @@
+year=2023
+srid=31370
+coverage='Belgium'
+refnis='01000'
+
+openDataFile=f'PP-FiscSit_{year}0101_shp_{srid}_{refnis}_{coverage}.zip'
+
+openDataSource=f'https://opendata.fin.belgium.be/download/datasets/{openDataFile}'
+openDataDownload=f'../input/{openDataFile}'
+openDataUnzip=f'../input/{openDataFile}-unzipped'
+
+shapefiles=[
+'Bpn_CaBu',
+'Bpn_CaPa_BRU',
+'Bpn_CaPa_VLA',
+'Bpn_CaPa_WAL',
+'Bpn_ReBu',
+    ]
+distance=50
